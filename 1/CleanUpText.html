@@ -6,6 +6,31 @@
 	<title>Text clean up</title>
 </head>
 <body>
-	
+	<button onclick="cleanUp()">Click me please:)</button>
+	<textarea name="output" id="cleanedUpText" cols="30" rows="10"></textarea>
+	<script>
+		var txt;
+
+		// function load() {
+		// 	txt = loadString("input.txt");
+		// 	console.log(txt);
+		// }
+		function cleanUp() {
+			// txt = loadString("input.txt");
+			// console.log(txt);
+
+			fetch('http://localhost/Stage-Challenges/1/input.txt')
+  			.then(response => response.text())
+  			.then((txt) => {
+   			 // console.log(txt)
+
+   			 txt = txt.replace(/[^a-zA-Z0-9]/g , ' ');
+   			 txt = txt.replace(/[0-9]/g, ' ');
+   			 
+   			 document.getElementById("cleanedUpText").innerHTML = txt;
+  			})
+		}
+	</script>
+
 </body>
 </html>
