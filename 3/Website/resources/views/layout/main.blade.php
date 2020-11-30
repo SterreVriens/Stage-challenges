@@ -8,6 +8,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>@yield('title')</title>
+    <style>
+      footer a{
+        color: #696969;
+      }
+      footer a:hover{
+        color: #3d3d3d;
+      }
+    </style>
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -20,7 +28,7 @@
             </a>
             <div class="collapse navbar-collapse " id="navbar-list-5">
               <ul class="navbar-nav ml-auto ">
-              <li><a href="" class="text-dark p-4">Opdracht 1</a></li>
+                  <li><a href="" class="text-dark p-4">Opdracht 1</a></li>
                   <li><a href="" class="text-dark p-4">Opdracht 2</a></li>
                   <li><a href="" class="text-dark p-4">Opdracht 4</a></li>
                   <li><a href="" class="text-dark p-4">Opdracht 5</a></li>
@@ -31,5 +39,104 @@
     <main>
              @yield('content');
     </main>
+    <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
+
+  <div style="background-color: #fa4b4bc4;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Kom met mij in contact!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Over mijn site</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Alles in de site is niet erg uitgebreid uitgewerkt Maar dat is omdat ik in bootstap ,laravel en javascript nog zeer beginnend ben</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Sites</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="https://projectbleueasy.netlify.app/">BlueEasy</a>
+        </p>
+        <p>
+          <a href="https://pcforu.netlify.app/">PCforyou</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Social media</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="https://www.linkedin.com/in/sterre-vriens-8940161b6/">LinkedIn</a>
+        </p>
+        <p>
+          <a href="https://www.instagram.com/st3rr33/">Instagram</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i> Halsteren</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i>Sterre.vriens03@gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 89</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright</div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 </body>
 </html>
