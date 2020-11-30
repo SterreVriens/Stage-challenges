@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 })->name('index');
+
+Route::get('/opdracht2', function () {
+    return view('fizzbuzz');
+})->name('fizzbuzz');
+
+Route::get('/opdracht1', function () {
+    return view('cleanup');
+})->name('cleanup');

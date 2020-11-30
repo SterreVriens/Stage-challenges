@@ -15,6 +15,10 @@
       footer a:hover{
         color: #3d3d3d;
       }
+      header{
+        border-bottom: 1px solid;
+        border-bottom-color:#fa4b4bc4;
+      }
     </style>
 </head>
 <body>
@@ -28,8 +32,8 @@
             </a>
             <div class="collapse navbar-collapse " id="navbar-list-5">
               <ul class="navbar-nav ml-auto ">
-                  <li><a href="" class="text-dark p-4">Opdracht 1</a></li>
-                  <li><a href="" class="text-dark p-4">Opdracht 2</a></li>
+                  <li><a href="{{route('cleanup')}}" class="text-dark p-4">Opdracht 1</a></li>
+                  <li><a href="{{route('fizzbuzz')}}" class="text-dark p-4">Opdracht 2</a></li>
                   <li><a href="" class="text-dark p-4">Opdracht 4</a></li>
                   <li><a href="" class="text-dark p-4">Opdracht 5</a></li>
               </ul>
