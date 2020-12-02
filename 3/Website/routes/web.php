@@ -24,3 +24,12 @@ Route::get('/opdracht2', function () {
 Route::get('/opdracht1', function () {
     return view('cleanup');
 })->name('cleanup');
+
+Route::get('/opdracht4', function () {
+    return view('trickortreat');
+})->name('trickortreat');
+
+Route::get('/opdracht5', function () {
+    return view('romanumerals');
+})->name('romannumerals');
+

@@ -34,8 +34,8 @@
               <ul class="navbar-nav ml-auto ">
                   <li><a href="{{route('cleanup')}}" class="text-dark p-4">Opdracht 1</a></li>
                   <li><a href="{{route('fizzbuzz')}}" class="text-dark p-4">Opdracht 2</a></li>
-                  <li><a href="" class="text-dark p-4">Opdracht 4</a></li>
-                  <li><a href="" class="text-dark p-4">Opdracht 5</a></li>
+                  <li><a href="{{route('trickortreat')}}" class="text-dark p-4">Opdracht 4</a></li>
+                  <li><a href="{{route('romannumerals')}}" class="text-dark p-4">Opdracht 5</a></li>
               </ul>
             </div>
           </nav>
